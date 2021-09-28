@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+
+<body>
+    <form action="" autocomplete="off">
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="fullname">Fullname</label><br>
+            <input type="text" name="fullname" id="fullname" required><br>
+            <label for="subject">Subject</label><br>
+            <input type="checkbox" name="subject" value="html">HTML
+            <input type="checkbox" name="subject" value="css">CSS
+            <input type="checkbox" name="subject" value="node">Node
+            <input type="checkbox" name="subject" value="JAVA">JAVA
+            <br>
+            <label for="district">District</label>
+            <select name="district" id="district" required>
+                <option value="kathmandu">Kathmandu</option>
+                <option value="bhaktapur">Bhaktapur</option>
+                <option value="lalitpur">Lalitpur</option>
+                <option value="kavre">Kavre</option>
+                <option value="dhading">Dhading</option>
+                <option value="rukum">Rukum</option>
+            </select>
+            <br>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age" required><br>
+
+            <label for="dob">DOB</label><br>
+            <input type="date" name="dob" id="dob" required><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" name="phone" id="phone" required><br>
+
+            <label for="image">Image</label><br>
+            <input type="file" name="image" id="image" required><br>
+
+            <label for="msg">Message</label><br>
+            <textarea type="msg" id="msg" cols="30" rows="10" required></textarea><br>
+
+            <input type="hidden" name="role" value="admin">
+            <input type="text" name="country" value="Nepal" readonly><br>
+            <input type="search" name="search" id="search"><br>
+            <input type="submit" value="send">
+            <input type="reset" value="reset">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
